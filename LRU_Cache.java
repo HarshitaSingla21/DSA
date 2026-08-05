@@ -1,4 +1,4 @@
-class LRUCache {
+class LRU_Cache {
     class Node {
         int key;
         int value;

@@ -1,4 +1,4 @@
-class Solution {
+class StoneWeight {
     public int lastStoneWeight(int[] stones) {
         PriorityQueue<Integer> max=new PriorityQueue<>(Collections.reverseOrder());
         for(int stone:stones){
